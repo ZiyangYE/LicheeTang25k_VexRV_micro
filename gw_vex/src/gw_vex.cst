@@ -1,0 +1,25 @@
+//Copyright (C)2014-2023 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//Tool Version: V1.9.9 (64-bit)
+//Part Number: GW5A-LV25MG121NES
+//Device: GW5A-25
+//Device Version: A
+//Created Time: Mon 01 29 20:38:09 2024
+
+IO_LOC "tx_p" C3;
+IO_PORT "tx_p" PULL_MODE=UP DRIVE=4 BANK_VCCIO=3.3;
+IO_LOC "jtag_tdo" H7;
+IO_PORT "jtag_tdo" PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "jtag_tck" G5;
+IO_PORT "jtag_tck" PULL_MODE=DOWN BANK_VCCIO=3.3;
+IO_LOC "jtag_tdi" G8;
+IO_PORT "jtag_tdi" PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "jtag_tms" J5;
+IO_PORT "jtag_tms" PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "debug_rst" H10;
+IO_PORT "debug_rst" PULL_MODE=DOWN BANK_VCCIO=3.3;
+IO_LOC "rst" H11;
+IO_PORT "rst" PULL_MODE=DOWN BANK_VCCIO=3.3;
+IO_LOC "clk" E2;
+IO_PORT "clk" PULL_MODE=NONE BANK_VCCIO=3.3;
