@@ -1,0 +1,144 @@
+[
+ {
+  "InstFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/gw_packer.v",
+  "InstLine" : 1,
+  "InstName" : "gw_packer",
+  "ModuleFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/gw_packer.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "gw_packer",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/gw_packer.v",
+    "InstLine" : 55,
+    "InstName" : "cpu",
+    "ModuleFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_pack.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "LAKKA_pack",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_pack.sv",
+      "InstLine" : 99,
+      "InstName" : "cpu",
+      "ModuleFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "VexRiscv",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+        "InstLine" : 1315,
+        "InstName" : "IBusSimplePlugin_rspJoin_rspBuffer_c",
+        "ModuleFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+        "ModuleLine" : 6903,
+        "ModuleName" : "StreamFifoLowLatency",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+          "InstLine" : 6926,
+          "InstName" : "fifo",
+          "ModuleFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+          "ModuleLine" : 7100,
+          "ModuleName" : "StreamFifo"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+        "InstLine" : 1330,
+        "InstName" : "reset_buffercc",
+        "ModuleFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+        "ModuleLine" : 6884,
+        "ModuleName" : "BufferCC"
+       },
+       {
+        "InstFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+        "InstLine" : 1336,
+        "InstName" : "debugModule_1",
+        "ModuleFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+        "ModuleLine" : 5883,
+        "ModuleName" : "DebugModule"
+       },
+       {
+        "InstFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+        "InstLine" : 1370,
+        "InstName" : "debugTransportModuleJtagTap_1",
+        "ModuleFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+        "ModuleLine" : 4880,
+        "ModuleName" : "DebugTransportModuleJtagTap",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+          "InstLine" : 5068,
+          "InstName" : "logic_jtagLogic_dmiCmd_ccToggle",
+          "ModuleFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+          "ModuleLine" : 7036,
+          "ModuleName" : "FlowCCByToggle",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+            "InstLine" : 7062,
+            "InstName" : "inputArea_target_buffercc",
+            "ModuleFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+            "ModuleLine" : 7243,
+            "ModuleName" : "BufferCC_3"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+          "InstLine" : 5081,
+          "InstName" : "logic_systemLogic_bus_rsp_ccToggle",
+          "ModuleFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+          "ModuleLine" : 6950,
+          "ModuleName" : "FlowCCByToggle_1",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+            "InstLine" : 6978,
+            "InstName" : "bufferCC_4",
+            "ModuleFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+            "ModuleLine" : 7219,
+            "ModuleName" : "BufferCC_1"
+           },
+           {
+            "InstFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+            "InstLine" : 6984,
+            "InstName" : "inputArea_target_buffercc",
+            "ModuleFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_new.v",
+            "ModuleLine" : 7195,
+            "ModuleName" : "BufferCC_2"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/LAKKA_pack.sv",
+      "InstLine" : 133,
+      "InstName" : "mem",
+      "ModuleFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/ram_module.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "RAM_4kx32"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/gw_packer.v",
+    "InstLine" : 72,
+    "InstName" : "uart_tx",
+    "ModuleFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/uart_tx_simp_bus.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "uart_tx_simp_bus"
+   },
+   {
+    "InstFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/gw_packer.v",
+    "InstLine" : 82,
+    "InstName" : "timer",
+    "ModuleFile" : "C:/Users/JackC/Desktop/works2024/playground/LicheeTang25k_VexRV_micro/gw_vex/src/timer_simp_bus.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "timer_simp_bus"
+   }
+  ]
+ }
+]
